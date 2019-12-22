@@ -149,6 +149,34 @@
 
     /**
      * @fileoverview added by tsickle
+     * Generated from: lib/bar-chart/bar-chart.component.ts
+     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+    var BarChartComponent = /** @class */ (function () {
+        function BarChartComponent() {
+        }
+        /**
+         * @return {?}
+         */
+        BarChartComponent.prototype.ngOnInit = /**
+         * @return {?}
+         */
+        function () {
+        };
+        BarChartComponent.decorators = [
+            { type: core.Component, args: [{
+                        selector: 'lib-bar-chart',
+                        template: "<p>bar-chart works!</p>\n",
+                        styles: [""]
+                    }] }
+        ];
+        /** @nocollapse */
+        BarChartComponent.ctorParameters = function () { return []; };
+        return BarChartComponent;
+    }());
+
+    /**
+     * @fileoverview added by tsickle
      * Generated from: lib/ngx-dashboard.module.ts
      * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
@@ -157,12 +185,12 @@
         }
         NgxDashboardModule.decorators = [
             { type: core.NgModule, args: [{
-                        declarations: [NgxDashboardComponent, SemiCircularProgressbarComponent, TestComponentComponent, PieChartComponent],
+                        declarations: [NgxDashboardComponent, SemiCircularProgressbarComponent, TestComponentComponent, PieChartComponent, BarChartComponent],
                         imports: [
                             material.MatCardModule,
                             material.MatButtonModule
                         ],
-                        exports: [NgxDashboardComponent, SemiCircularProgressbarComponent, PieChartComponent]
+                        exports: [NgxDashboardComponent, SemiCircularProgressbarComponent, PieChartComponent, BarChartComponent]
                     },] }
         ];
         return NgxDashboardModule;
@@ -174,6 +202,7 @@
     exports.ɵa = SemiCircularProgressbarComponent;
     exports.ɵb = TestComponentComponent;
     exports.ɵc = PieChartComponent;
+    exports.ɵd = BarChartComponent;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 

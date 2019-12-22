@@ -146,6 +146,34 @@ var PieChartComponent = /** @class */ (function () {
 
 /**
  * @fileoverview added by tsickle
+ * Generated from: lib/bar-chart/bar-chart.component.ts
+ * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+var BarChartComponent = /** @class */ (function () {
+    function BarChartComponent() {
+    }
+    /**
+     * @return {?}
+     */
+    BarChartComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    BarChartComponent.decorators = [
+        { type: Component, args: [{
+                    selector: 'lib-bar-chart',
+                    template: "<p>bar-chart works!</p>\n",
+                    styles: [""]
+                }] }
+    ];
+    /** @nocollapse */
+    BarChartComponent.ctorParameters = function () { return []; };
+    return BarChartComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
  * Generated from: lib/ngx-dashboard.module.ts
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
@@ -154,12 +182,12 @@ var NgxDashboardModule = /** @class */ (function () {
     }
     NgxDashboardModule.decorators = [
         { type: NgModule, args: [{
-                    declarations: [NgxDashboardComponent, SemiCircularProgressbarComponent, TestComponentComponent, PieChartComponent],
+                    declarations: [NgxDashboardComponent, SemiCircularProgressbarComponent, TestComponentComponent, PieChartComponent, BarChartComponent],
                     imports: [
                         MatCardModule,
                         MatButtonModule
                     ],
-                    exports: [NgxDashboardComponent, SemiCircularProgressbarComponent, PieChartComponent]
+                    exports: [NgxDashboardComponent, SemiCircularProgressbarComponent, PieChartComponent, BarChartComponent]
                 },] }
     ];
     return NgxDashboardModule;
@@ -177,5 +205,5 @@ var NgxDashboardModule = /** @class */ (function () {
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
-export { NgxDashboardComponent, NgxDashboardModule, NgxDashboardService, SemiCircularProgressbarComponent as ɵa, TestComponentComponent as ɵb, PieChartComponent as ɵc };
+export { NgxDashboardComponent, NgxDashboardModule, NgxDashboardService, SemiCircularProgressbarComponent as ɵa, TestComponentComponent as ɵb, PieChartComponent as ɵc, BarChartComponent as ɵd };
 //# sourceMappingURL=ngx-dashboard.js.map

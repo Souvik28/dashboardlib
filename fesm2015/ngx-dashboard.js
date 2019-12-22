@@ -125,6 +125,29 @@ PieChartComponent.ctorParameters = () => [];
 
 /**
  * @fileoverview added by tsickle
+ * Generated from: lib/bar-chart/bar-chart.component.ts
+ * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+class BarChartComponent {
+    constructor() { }
+    /**
+     * @return {?}
+     */
+    ngOnInit() {
+    }
+}
+BarChartComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'lib-bar-chart',
+                template: "<p>bar-chart works!</p>\n",
+                styles: [""]
+            }] }
+];
+/** @nocollapse */
+BarChartComponent.ctorParameters = () => [];
+
+/**
+ * @fileoverview added by tsickle
  * Generated from: lib/ngx-dashboard.module.ts
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
@@ -132,12 +155,12 @@ class NgxDashboardModule {
 }
 NgxDashboardModule.decorators = [
     { type: NgModule, args: [{
-                declarations: [NgxDashboardComponent, SemiCircularProgressbarComponent, TestComponentComponent, PieChartComponent],
+                declarations: [NgxDashboardComponent, SemiCircularProgressbarComponent, TestComponentComponent, PieChartComponent, BarChartComponent],
                 imports: [
                     MatCardModule,
                     MatButtonModule
                 ],
-                exports: [NgxDashboardComponent, SemiCircularProgressbarComponent, PieChartComponent]
+                exports: [NgxDashboardComponent, SemiCircularProgressbarComponent, PieChartComponent, BarChartComponent]
             },] }
 ];
 
@@ -153,5 +176,5 @@ NgxDashboardModule.decorators = [
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
-export { NgxDashboardComponent, NgxDashboardModule, NgxDashboardService, SemiCircularProgressbarComponent as ɵa, TestComponentComponent as ɵb, PieChartComponent as ɵc };
+export { NgxDashboardComponent, NgxDashboardModule, NgxDashboardService, SemiCircularProgressbarComponent as ɵa, TestComponentComponent as ɵb, PieChartComponent as ɵc, BarChartComponent as ɵd };
 //# sourceMappingURL=ngx-dashboard.js.map
