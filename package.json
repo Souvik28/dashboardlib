@@ -1,0 +1,19 @@
+{
+  "name": "dashboardlib",
+  "version": "1.0.0",
+  "description": "Usage of only angular library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Souvik28/dashboardlib.git"
+  },
+  "author": "Souvik Dutta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Souvik28/dashboardlib/issues"
+  },
+  "homepage": "https://github.com/Souvik28/dashboardlib#readme"
+}
